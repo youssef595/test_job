@@ -62,4 +62,4 @@ get_ipython().run_cell_magic('spark', '', 'bucket_name = "sa-cat-data-neu"\nname
 # In[ ]:
 
 
-get_ipython().run_cell_magic('spark', '', 'dico_data2[\'clients_ref\'].write.mode(\'overwrite\').parquet(f"oci://{bucket_name}@{namespace}/working/curated/client_ref_test_test1.parquet")\nprint(\'STORING DONE\')')
+get_ipython().run_cell_magic('spark', '', 'dico_data2[\'clients_ref\'].write.mode(\'overwrite\').parquet(f"oci://{bucket_name}@{namespace}/working/curated/client_ref_test_test2.parquet")\nprint(\'STORING DONE\')')
